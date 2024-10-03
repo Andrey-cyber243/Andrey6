@@ -12,6 +12,7 @@ print(my_dict.get(2006))
 print(my_dict)
 my_set={1,3,4,5,2,4,5,'Egor','Egor','String',True,(4,2,5)}
 print(my_set)
-my_set={1,3,4,5,2,4,5,10,98,'Egor','Egor','String',True,(4,2,5)}
+my_set.add(10)
+my_set.add(98)
 my_set.discard(5)
 print(my_set)
